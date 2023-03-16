@@ -1,0 +1,120 @@
+*{padding: 0;
+  margin: 0;  
+  box-sizing: border-box;
+}
+
+ body {background-color: black;
+} 
+
+#header{width: 100%;
+        height: 100vh;
+        background-image:url(https://th.bing.com/th/id/OIP.gi4mPfCFwWUeOV_iEgBtVgHaEo?pid=ImgDet&rs=1) ;  
+        background-size: cover;
+        background-position: center;
+}
+
+.logo {height: 120px;
+       width: 160px;
+}
+
+.container{padding-top: 10px;
+           padding-bottom: 10px;
+           padding-left: 10%;
+           padding-right: 10%;
+}
+
+nav{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li {display:inline-block ;
+           list-style: none;
+           margin-top:10px ;
+           margin-bottom:10px ;
+           margin-left: 20px;
+           margin-right: 20px;
+}
+
+nav ul li a {color: white;
+             text-decoration: none;
+             font-size: 18px;
+             position: relative;
+}
+
+nav ul li a::after{content: ' ';
+                   width: 0;
+                   height: 3px;
+                   background:red;
+                   position: absolute;
+                   left: 0;
+                   bottom: -6px;
+                  transition: 0.5s;
+}
+
+nav ul li a:hover::after{width: 100%;
+
+}
+
+.header-text{color: white;
+            margin-top: 20%;
+            font-size: 30px;
+}
+
+.header-text h1 {font-size: 60px;
+                 margin-top: 20px;
+}
+
+.header-text h1 span {color: red;
+}
+
+/* About */
+#about {padding: 80px 0;
+        color: white;
+}
+
+.row {display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+}
+
+.about-col-1 {flex-basis: 35%;
+}
+
+.about-col-1 img {width: 100%;
+                  border-radius: 15px;
+}
+
+.about-col-2{flex-basis: 60%;            
+}
+
+h2{font-size: 60px;
+   font-weight: 600px;
+   color: white;
+}
+    
+.about-titles{display: flex;
+              margin: 20px 0 40px;
+}
+
+.about-links{margin-right: 50px;
+             font-size: 18px;
+             font-weight: 500px;
+             cursor: pointer;
+             position: relative;
+}
+
+.about-links::after{content: ' ';
+  width: 0;
+  height: 3px;
+  background:red;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+ transition: 0.5s;
+}
+
+.about-links.active-link::after{width: 50%;
+}
+
