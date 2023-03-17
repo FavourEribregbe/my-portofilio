@@ -11,7 +11,7 @@
   <div id="header">
 <div class="container">
     <nav>
-         <img src="images/exo-logo.jpg" alt="logo" class="logo"> 
+         <img src="images/logo.jpg" alt="logo" class="logo"> 
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
@@ -21,7 +21,7 @@
         </ul>
     </nav>
     <div class="header-text">
-        <p>WRITER</p>
+        <p class="work">WEB DEVELOPER</p>
         <h1>Hi, i'm <span>Favour</span> <br> John From Nigeria</h1>
     </div>
 </div>
@@ -36,15 +36,38 @@
             <div class="about-col-2">
                 <h2>About Me</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis ut repellat pariatur quam maxime nihil numquam blanditiis exercitationem. Ipsum dicta, eaque modi fuga doloremque impedit quas incidunt itaque. Consequuntur, voluptatem.</p>
-          <div class="about-titles">
-            <p class="about-links active-link">Skills</p>
-            <p class="about-links">Experience</p>
-            <p class="about-links">Education</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
           </div>
-          
+        <div class="tab-contents active-tab" id="skills">
+        <ul>
+          <li><span>Web design</span><br>Designing Web/App interfaces</li>
+          <li><span>Web development</span><br>Developing websites</li>
+          <li><span>App development</span><br>Building Android/IOS apps</li>
+        </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2022 - current</span><br>wed/app development </li>
+            <li><span>2021 - 2022</span><br>App development training</li>
+            <li><span>2020 - 2021</span><br>web development/design training</li>
+          </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2021</span><br>FUPRE</li>
+              <li><span>2020</span><br>CODEX computer training</li>
+              <li><span>2018</span><br>SPC</li>
+            </ul>
+            </div>
             </div>
         </div>
     </div>
   </div>
+
+<script src="script.js"></script>
+
 </body>
 </html>

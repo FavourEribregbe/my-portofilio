@@ -8,13 +8,14 @@
 
 #header{width: 100%;
         height: 100vh;
-        background-image:url(https://th.bing.com/th/id/OIP.gi4mPfCFwWUeOV_iEgBtVgHaEo?pid=ImgDet&rs=1) ;  
+        background-image:url(https://th.bing.com/th/id/OIP.YJeuseZQV3KTzNnN9FSt2gHaEK?pid=ImgDet&rs=1);  
         background-size: cover;
         background-position: center;
 }
 
-.logo {height: 120px;
-       width: 160px;
+.logo {height: 150px;
+       width: 180px;
+       padding-left: 10px;
 }
 
 .container{padding-top: 10px;
@@ -66,6 +67,10 @@ nav ul li a:hover::after{width: 100%;
                  margin-top: 20px;
 }
 
+.work{
+        color: red;
+}
+
 .header-text h1 span {color: red;
 }
 
@@ -94,18 +99,18 @@ h2{font-size: 60px;
    color: white;
 }
     
-.about-titles{display: flex;
+.tab-titles{display: flex;
               margin: 20px 0 40px;
 }
 
-.about-links{margin-right: 50px;
+.tab-links{margin-right: 50px;
              font-size: 18px;
              font-weight: 500px;
              cursor: pointer;
              position: relative;
 }
 
-.about-links::after{content: ' ';
+.tab-links::after{content: ' ';
   width: 0;
   height: 3px;
   background:red;
@@ -115,6 +120,25 @@ h2{font-size: 60px;
  transition: 0.5s;
 }
 
-.about-links.active-link::after{width: 50%;
+.tab-links.active-link::after{width: 50%;
 }
+
+.tab-contents ul li{list-style: none;
+                    margin: 10px 0;
+                }
+
+.tab-contents ul li span{color: darkred;
+                         font-size: 14px;
+}
+
+.tab-contents {
+        display: none;
+}
+
+.tab-contents.active-tab{
+        display: block;
+}
+
+
+
 
