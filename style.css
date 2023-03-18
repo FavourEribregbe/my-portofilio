@@ -16,10 +16,10 @@ html{scroll-behavior: smooth;
         background-position: center;
 }
 
-.logo {height: 70px;
-       width: 160px;
+.logo {height: 50px;
+       width: 80px;
        padding-left: 1px;
-       border-radius: 6px;
+       border-radius: 50%;
 }
 
 .container{padding-top: 10px;
@@ -328,7 +328,7 @@ nav .fa-solid{display: none;
 
 @media only screen and (max-width:600px){
         #header{
-                background-image: url(https://th.bing.com/th/id/OIP.T_meQ7lvg8pbjvQ56NkdmwHaDY?pid=ImgDet&w=700&h=320&rs=1);
+                background-image: url(https://www.css.pe/wp-content/uploads/2017/03/Desarrollo-de-software-big-300x214.png);
         }
         .header-text {margin-top: 100%;
                       font-size: 16px;
