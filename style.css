@@ -3,6 +3,9 @@
   box-sizing: border-box;
 }
 
+html{scroll-behavior: smooth;
+}
+
  body {background-color: black;
 } 
 
@@ -13,9 +16,10 @@
         background-position: center;
 }
 
-.logo {height: 150px;
-       width: 180px;
-       padding-left: 10px;
+.logo {height: 70px;
+       width: 160px;
+       padding-left: 1px;
+       border-radius: 6px;
 }
 
 .container{padding-top: 10px;
@@ -94,7 +98,7 @@ nav ul li a:hover::after{width: 100%;
 .about-col-2{flex-basis: 60%;            
 }
 
-h2{font-size: 60px;
+h2{font-size: 40px;
    font-weight: 600px;
    color: white;
 }
@@ -318,20 +322,20 @@ form input, form textarea {width: 100%;
 }
 
 /* css for small screen */
-nav .fas{display: none;
+nav .fa-solid{display: none;
          color: white;
 }
 
 @media only screen and (max-width:600px){
         #header{
-                background-image: url(https://wallpapercave.com/wp/wp3988340.jpg);
+                background-image: url(https://th.bing.com/th/id/OIP.T_meQ7lvg8pbjvQ56NkdmwHaDY?pid=ImgDet&w=700&h=320&rs=1);
         }
         .header-text {margin-top: 100%;
                       font-size: 16px;
         }
         .header-text h1{font-size: 30px;
         }
-        nav .fas {display: block;
+        nav .fa-solid {display: block;
                   font-size: 25px;
         }
         nav ul {background-color: red;
@@ -347,9 +351,29 @@ nav .fas{display: none;
        nav ul li{display: block;
                  margin: 25px;
        }
-       nav ul .fas {position: absolute;
+       nav ul .fa-solid{position: absolute;
                     top: 25px;
                     left: 25px;
                     cursor: pointer;
        }
+
+       .about-col-1 , .about-col-2{flex-basis:100%;
+       }
+
+       .about-col-1 {margin-bottom: 30px;
+       }
+
+       .about-col-2{font-size: 14px;
+       }
+
+       .tab-links{font-size: 16px;
+                  margin-right: 20px;
+       }
+
+       .contact-left, .contact-right{flex-basis: 100%;
+       }
+
+       .copyright{font-size: 16px;
+       }
+
 }
