@@ -139,6 +139,119 @@ h2{font-size: 60px;
         display: block;
 }
 
+/* services */
+#services{padding: 30px 0;         
+}
 
+.services-list{display: grid;
+               grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+               grid-gap: 40px;
+               margin-top: 50px;
+}
 
+p{color: white;
+}
 
+h3{color: white;
+   font-size: 30px;  
+   font-weight: 500px;
+   margin-bottom: 15px;    
+}
+
+.services-list div {background-color:rgb(57, 56, 56) ;
+                    padding: 40px;
+                    font-size:14px ;
+                    font-weight: 300px;
+                    border-radius: 10px;
+                    transition: 0.5s, transform 0.5s ;
+}
+
+.services-list div i{color: white;
+                     font-size: 50px;
+                     margin-bottom: 30px;
+}
+
+.services-list div a{text-decoration: none;
+                     color: white;
+                     font-size: 12px;
+                     margin-top: 20px;
+                     display: inline-block;
+}
+
+.services-list div:hover{background-color: red;
+                         transform: translateY(-10px);
+}
+/* portfolio */
+#portfolio{padding: 50px 0;
+           
+}
+
+.work-list{display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 40px;
+        margin-top: 50px;
+}
+
+.work{border-radius: 10px;
+      position: relative;
+      overflow: hidden;
+}
+
+.work img {width: 100%;
+           border-radius: 10px;
+           display: block;
+           transition: transform 0.5s;
+}
+
+.layer{width: 100%;
+       height: 0;
+       background: linear-gradient(rgba(0,0,0,0.6), rgb(243, 123, 123));
+       border-radius: 10px;
+       position: absolute; left: 0; bottom: 0;
+       overflow: hidden;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       padding: 0 40px;
+       text-align: center;
+       font-size: 14px;
+       transition: height 0.5s;
+}
+
+.layer h3{font-weight: 500;
+        margin-bottom: 20px;
+}
+
+.layer a {margin-top: 15px;
+          color: red;
+          text-decoration: none;
+          font-size: 13px;
+          line-height: 40px;
+          background: white;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          text-align: center;
+}
+
+.work:hover img{transform: scale(1.1);
+}
+
+.work:hover .layer {height: 100%;
+}
+
+.SM{display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: solid 1px red;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color:white ;
+    transition: 0.5s;
+}
+
+.SM:hover {background-color: red;
+}
+/* contact */
