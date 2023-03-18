@@ -13,16 +13,18 @@
 <div class="container">
     <nav>
          <img src="images/logo.jpg" alt="logo" class="logo"> 
-        <ul>
+        <ul id="sidemenu" >
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">services</a></li>
             <li><a href="">portfolio</a></li>
             <li><a href="">contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
         </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
     </nav>
     <div class="header-text">
-        <p class="work">WEB DEVELOPER</p>
+        <p class="work">WEB/APP DEVELOPER</p>
         <h1>Hi, i'm <span>Favour</span> <br> John From Nigeria</h1>
     </div>
 </div>
@@ -127,10 +129,36 @@
 <a href="#" class="SM">See more</a>
 </div>
 <!-- contact -->
-
+<div id="contact">
+<div class="container">
+<div class="row">
+<div class="contact-left">
+<h2 class="sub-title">Contact Me</h2>
+<p><i class="fa-sharp fa-solid fa-paper-plane"></i>leefavour61122@gmail.com</p>
+<p><i class="fa-solid fa-square-phone"></i>+234-9046260476</p>
+<div class="social-icons">
+  <a href=""><i class="fa-brands fa-facebook"></i></a>
+  <a href=""><i class="fa-brands fa-twitter"></i></a>
+  <a href=""><i class="fa-brands fa-instagram"></i></a>
+  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+</div>
+</div>
+<div class="contact-right">
+  <form action="" method="get">
+    <input type="text" name="name" placeholder="Your Full Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+    <button type="submit" class="SM-2">Submit</button>
+  </form>
+</div>
+</div>
+</div>
+<div class="copyright">
+  <p>copyright <i class="fa-thin fa-copyright"></i>Favour. made with <i class="fa-sharp fa-solid fa-heart"></i> by Favour </p>
+</div>
+</div>
 
 
 <script src="script.js"></script>
-
 </body>
 </html>
