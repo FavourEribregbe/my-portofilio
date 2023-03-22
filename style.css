@@ -51,7 +51,7 @@ nav ul li a {color: white;
 nav ul li a::after{content: ' ';
                    width: 0;
                    height: 3px;
-                   background:red;
+                   background:rgb(147, 78, 78);
                    position: absolute;
                    left: 0;
                    bottom: -6px;
@@ -72,10 +72,10 @@ nav ul li a:hover::after{width: 100%;
 }
 
 .work{
-        color: red;
+        color: white;
 }
 
-.header-text h1 span {color: red;
+.header-text h1 span {color:white;
 }
 
 /* About */
@@ -117,7 +117,7 @@ h2{font-size: 40px;
 .tab-links::after{content: ' ';
   width: 0;
   height: 3px;
-  background:red;
+  background:rgb(133, 84, 84);
   position: absolute;
   left: 0;
   bottom: -8px;
@@ -131,7 +131,7 @@ h2{font-size: 40px;
                     margin: 10px 0;
                 }
 
-.tab-contents ul li span{color: darkred;
+.tab-contents ul li span{color: white;
                          font-size: 14px;
 }
 
@@ -182,7 +182,7 @@ h3{color: white;
                      display: inline-block;
 }
 
-.services-list div:hover{background-color: red;
+.services-list div:hover{background-color: rgb(136, 73, 73);
                          transform: translateY(-10px);
 }
 /* portfolio */
@@ -228,7 +228,7 @@ h3{color: white;
 }
 
 .layer a {margin-top: 15px;
-          color: red;
+          color: rgb(129, 77, 77);
           text-decoration: none;
           font-size: 13px;
           line-height: 40px;
@@ -248,7 +248,7 @@ h3{color: white;
 .SM{display: block;
     margin: 50px auto;
     width: fit-content;
-    border: solid 1px red;
+    border: solid 1px rgb(118, 64, 64);
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -256,7 +256,7 @@ h3{color: white;
     transition: 0.5s;
 }
 
-.SM:hover {background-color: red;
+.SM:hover {background-color: rgb(130, 76, 76);
 }
 /* contact */
 .contact-left{flex-basis: 35%;
@@ -268,7 +268,7 @@ h3{color: white;
 .contact-left p{margin-top: 30px;
 }
 
-.contact-left p i {color: red;
+.contact-left p i {color: rgb(120, 68, 68);
                    margin-right: 15px;
                    font-size: 20px;
 }
@@ -284,7 +284,7 @@ h3{color: white;
                  transition: transform 0.5s;
 }
 
-.social-icons a :hover{color: red;
+.social-icons a :hover{color: rgb(152, 102, 102);
                        transform: translateY(-5px);
 }
 
@@ -302,7 +302,7 @@ form input, form textarea {width: 100%;
          border-radius: 6px;
 }
 
-.SM-2{background-color:red;
+.SM-2{background-color:rgb(137, 76, 76);
       border-color: white;
       width: 150px; 
       height: 50px;
@@ -318,7 +318,7 @@ form input, form textarea {width: 100%;
            margin-top: 20px;
 }
 
-.copyright i {color: red;
+.copyright i {color: rgb(141, 88, 88);
 }
 
 /* css for small screen */
@@ -338,7 +338,7 @@ nav .fa-solid{display: none;
         nav .fa-solid {display: block;
                   font-size: 25px;
         }
-        nav ul {background-color: red;
+        nav ul {background-color: rgb(127, 76, 76);
                 position: fixed;
                 top: 0;
                 right: -200px;
@@ -363,7 +363,7 @@ nav .fa-solid{display: none;
        .about-col-1 {margin-bottom: 30px;
        }
 
-       .about-col-2{font-size: 14px;
+       .about-col-2{font-size: 16px;
        }
 
        .tab-links{font-size: 16px;
