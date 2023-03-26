@@ -11,7 +11,7 @@ html{scroll-behavior: smooth;
 
 #header{width: 100%;
         height: 100vh;
-        background-image:url(https://th.bing.com/th/id/OIP.YJeuseZQV3KTzNnN9FSt2gHaEK?pid=ImgDet&rs=1);  
+        background-image:url(./images/bac-1.jpg);  
         background-size: cover;
         background-position: center;
 }
@@ -328,7 +328,7 @@ nav .fa-solid{display: none;
 
 @media only screen and (max-width:600px){
         #header{
-                background-image: url(https://www.css.pe/wp-content/uploads/2017/03/Desarrollo-de-software-big-300x214.png);
+                background-image: url(./images/bac-2.jpg);
         }
         .header-text {margin-top: 100%;
                       font-size: 16px;
